@@ -7,5 +7,5 @@
     Distribution Version: {{ ansible_distribution_version }}
     Kernel: {{ ansible_kernel }}
     Architecture: {{ ansible_architecture }}
-  debug:
+   debug:
    msg: "{{ msg.split('\n') }}"
