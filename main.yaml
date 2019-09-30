@@ -1,0 +1,8 @@
+---
+- name: cheking kernal verion 
+  hosts: all
+  gather_facts: false # remove later! speeds up testing
+  become: true
+
+  roles:
+  - kernal-version
